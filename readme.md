@@ -21,9 +21,8 @@
 
 ### How use it
  * `npm install`
- * `$this->ip = $_SERVER['REMOTE_ADDR'];` Remove the comment of this line 
-
+ * `$this->ip = $_SERVER['REMOTE_ADDR'];` Remove the comment of this line on position.php
+ * Get api keys on [openweathermap.api](https://openweathermap.org/api) and on  [newsapi.org](https://newsapi.org/sources)
 ### Coming Features
  * Possibility to chose the news source from [https://newsapi.org/sources](https://newsapi.org/sources)
  * Chrome extension
-# NewTab
