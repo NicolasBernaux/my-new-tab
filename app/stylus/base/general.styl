@@ -1,0 +1,107 @@
+body
+    background #ffffff
+    color: white
+    font-family: 'Roboto', sans-serif
+
+    .display-none
+        display: none !important
+
+    .prefix
+        left 100%
+
+    .card:hover
+        box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.3)
+        transform: translate(0,-3px)
+
+    .card
+        overflow: hidden
+        transition: transform 0.33s ease-in-out
+
+        img
+            height: 400px !important
+            width: inherit !important
+            margin-left: 50%
+            transform: translate(-50%)
+
+
+    .cards-center
+        margin-top: 10vh
+
+    .search
+        margin-top: 1vh
+
+    header
+        width: 100vw
+
+        img
+            width: 100%
+            margin-top: 50%
+            transform: translate(0,-50%)
+
+        .temperature
+                font-size: 4rem !important
+                line-height: 2rem
+                display: inline-block
+                width: 45%
+                margin-top: 50%
+                transform: translate(0,-50%)
+
+
+                .smalleur-text
+                    font-size: 1.5rem
+                    line-height: 0.5rem
+
+        input
+            border-bottom: 0px !important
+            cursor: pointer
+            background: rgba(255, 255, 255, 0.2) !important
+            border-radius: 2px !important
+
+        input[type=text]:focus
+            box-shadow: 0 1px 0 0 #fff !important
+            background: inherit !important
+
+
+        input::placeholder
+            color: white
+
+        label
+            color: #ffffff
+
+
+    .container
+        background: #ffffff
+
+    .page
+        margin-top: -60px
+
+        .position-relative
+            position: relative
+            transform: translate(0,-50%)
+
+    .container
+        .image-horizontal-card
+            img
+                width: 100px !important
+                height: 100px !important
+                top: 50% !important
+                transform: translate(-50%,-50%)
+
+        .position-relative::after
+            content: ""
+            position: absolute
+            top: -5px
+            right: 40%
+            transform: translate(50%)
+            width: 25px
+            height: 25px
+            z-index: 1000
+
+        .cloud-after::after
+            background: url('../img/cloud.svg')
+
+        .wind-after::after
+            background: url('../img/wind.svg')
+
+        .humidity-after::after
+            background: url('../img/humidity.svg')
